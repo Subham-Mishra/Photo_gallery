@@ -1,2 +1,2 @@
 # Photo_gallery
-A Photo gallery web-app using ootstrap
+A Photo gallery web-app using Bootstrap
