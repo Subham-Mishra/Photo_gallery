@@ -22,9 +22,6 @@ body, html {
 {
     opacity:0.2;
 }
-.alert {
-	width: cover;
-}
 .text p {
 	color: #ff3043;
 }
@@ -113,7 +110,8 @@ a i{
 }
 a i:hover{
 	color: #fffcec;
-}html {
+}
+html {
 	overflow-x: hidden;
 }
 .row {
