@@ -4,11 +4,10 @@
 <head>
 	<title>MY PICS</title>
 	<meta charset="UTF-8">
-	<link href="../CSS%20file/Gallery.css" rel="stylesheet" type="text/css">
+    <meta content="width=device-width,initial-scale=1.0,maximum-scale=1,user-scalable=no" name="viewport">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="../CSS%20file/Gallery.css" rel="stylesheet" type="text/css">
 	<link href="favicon.ico" rel="icon" type="image/x-icon">
-	<meta content="width=device-width,initial-scale=1.0,maximum-scale=1,user-scalable=no" name="viewport">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
@@ -37,7 +36,7 @@
 	<br>
 	<br>
 
-     <div class="row Gallery">
+     <div class="row Gallery" data-aos="zoom-out-up">
         <div class="column">
             <img class="zoom" src="../Images/mypic1.jpg">
             <img class="zoom" src="../Images/mypic2.jpg">
@@ -64,6 +63,9 @@
             <img class="zoom" src="../Images/mypic4.jpg">
         </div>
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="../JAVASCRIPT%20files/Galleryjs.js"></script>
 
 </body>
